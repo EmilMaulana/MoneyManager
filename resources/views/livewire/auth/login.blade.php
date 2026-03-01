@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Auth;
 use Livewire\Volt\Component;
 use function Livewire\Volt\layout;
 
-layout('components.layouts.app');
+layout('layouts.app');
 
 new class extends Component {
     public $email = '';

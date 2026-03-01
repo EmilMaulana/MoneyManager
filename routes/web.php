@@ -26,4 +26,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/transactions', function() {
         return view('livewire.transactions');
     })->name('transactions');
+
+    Route::get('/accounts', function() {
+        return view('livewire.accounts');
+    })->name('accounts');
 });

@@ -16,6 +16,7 @@
                     </div>
                     <div class="flex items-center space-x-4">
                         @auth
+                            <a href="{{ route('accounts') }}" class="text-gray-600 hover:text-indigo-600">Accounts</a>
                             <a href="{{ route('transactions') }}" class="text-gray-600 hover:text-indigo-600">Transactions</a>
                             <a href="{{ route('categories') }}" class="text-gray-600 hover:text-indigo-600">Categories</a>
                             <form method="POST" action="{{ route('logout') }}">
